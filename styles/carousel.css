@@ -35,12 +35,39 @@ body {
  
 }
 
+.banner {
+  padding-bottom: 3rem;
+  width:100vw;
+}
+
 .images {
   border-color: black;
+  border-radius: 3%;
   border: solid;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  
 }
+
+#rImage {
+  border-color: black;
+  border-radius: 3%;
+  border: solid;
+  width: 100%;
+  
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+  }
+  .col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+  }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -100,6 +127,22 @@ body {
   line-height: 1;
   /* rtl:remove */
   letter-spacing: -.05rem;
+}
+.team {
+  border-radius: 50%;
+  width: 100%;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.accordion-button {
+  background: white;
 }
 
 
