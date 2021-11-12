@@ -2,12 +2,45 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+#header h1{
+  margin:0px;
 }
 
+body {
+  margin: 0;
+
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  background-color: white;
+  font-family: 'Comfortaa', cursive;
+}
+/*
+.navbar {
+  opacity: 0.5;
+}
+*/
+
+.nav-link {
+  color: #ff980f;
+}
+
+.btn-primary{
+  background-color: #FFAE42;
+  border-color: #FFAE42;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #ff980f;
+ 
+}
+
+.images {
+  border-color: black;
+  border: solid;
+  width: 500px;
+  height: 500px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
